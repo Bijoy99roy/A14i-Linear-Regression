@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<a href="/download"><button type="button" class="btn btn-success">Download</button></a>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>#</th>
+        {% for head in result[1] %}
+          <th>{{head}}</th>
+        {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+  {% for index, data in result[0] %}
+    <tr>
+      <th scope="row">{{index+1}}</th>
+      <td>{{data[0]}}</td>
+      <td>{{data[1]}}</td>
+        <td>{{data[2]}}</td>
+        <td>{{data[3]}}</td>
+        <td>{{data[4]}}</td>
+        <td>{{data[5]}}</td>
+        <td>{{data[6]}}</td>
+        <td>{{data[7]}}</td>
+       <td>{{data[8]}}</td>
+
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

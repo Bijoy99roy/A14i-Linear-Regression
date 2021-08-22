@@ -1,0 +1,66 @@
+2021-08-22/19:45:05: Info :		Initiating app
+2021-08-22/19:45:05: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-08-22/19:45:27: Info :		File upload initaited..
+2021-08-22/19:45:27: Error :		Error occured in Uploading file. Message: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2021-08-22/19:55:50: Info :		File upload initaited..
+2021-08-22/19:56:54: Info :		Initiating app
+2021-08-22/19:56:54: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-08-22/19:57:05: Info :		Getting input from Form
+2021-08-22/19:57:05: Error :		Error occured in getting input from Form. Message: list indices must be integers or slices, not str
+2021-08-22/19:58:33: Info :		Initiating app
+2021-08-22/19:58:33: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-08-22/19:58:43: Info :		Getting input from Form
+2021-08-22/19:58:43: Error :		Error occured in getting input from Form. Message: string indices must be integers
+2021-08-22/19:59:29: Info :		Initiating app
+2021-08-22/19:59:29: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-08-22/19:59:37: Info :		Getting input from Form
+2021-08-22/19:59:37: Error :		Error occured in getting input from Form. Message: string indices must be integers
+2021-08-22/20:09:23: Info :		Getting input from Form
+2021-08-22/20:09:23: Error :		Error occured in getting input from Form. Message: 'Process temperature [K]'
+2021-08-22/20:12:52: Info :		Getting input from Form
+2021-08-22/20:12:52: Error :		Error occured in getting input from Form. Message: 2 columns passed, passed data had 8 columns
+2021-08-22/20:16:12: Info :		Getting input from Form
+2021-08-22/20:16:12: Error :		Error occured in getting input from Form. Message: [Errno 2] No such file or directory: 'Input_data/input.csv'
+2021-08-22/20:17:21: Info :		Getting input from Form
+2021-08-22/20:17:30: Info :		Getting input from Form
+2021-08-22/20:19:05: Info :		Getting input from Form
+2021-08-22/20:19:05: Info :		Prediction Initiated..
+2021-08-22/20:19:05: Error :		Error occured in prediction. Message: [Errno 2] No such file or directory: 'prediction_logs/ValidationLog.txt'
+2021-08-22/20:20:09: Info :		Getting input from Form
+2021-08-22/20:20:10: Info :		Prediction Initiated..
+2021-08-22/20:20:10: Error :		Error occured in prediction. Message: [Errno 2] No such file or directory: 'prediction_logs/ValidationLog.txt'
+2021-08-22/20:21:07: Info :		Getting input from Form
+2021-08-22/20:21:07: Info :		Prediction Initiated..
+2021-08-22/20:21:07: Error :		Error occured in prediction. Message: [Errno 2] No such file or directory: 'prediction_logs/ValidationLog.txt'
+2021-08-22/20:21:13: Info :		Initiating app
+2021-08-22/20:21:13: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-08-22/20:21:23: Info :		Getting input from Form
+2021-08-22/20:21:23: Info :		Prediction Initiated..
+2021-08-22/20:21:23: Error :		Error occured in prediction. Message: [Errno 2] No such file or directory: 'prediction_logs/ValidationLog.txt'
+2021-08-22/20:24:13: Info :		Getting input from Form
+2021-08-22/20:24:13: Info :		Prediction Initiated..
+2021-08-22/20:24:13: Error :		Error occured in prediction. Message: 'AppLogger' object has no attribute 'database'
+2021-08-22/20:24:48: Info :		Getting input from Form
+2021-08-22/20:24:48: Info :		Prediction Initiated..
+2021-08-22/20:24:48: Error :		Error occured in prediction. Message: [Errno 2] No such file or directory: 'models/StandardScaler.sav'
+2021-08-22/20:26:08: Info :		Getting input from Form
+2021-08-22/20:26:08: Info :		Prediction Initiated..
+2021-08-22/20:26:21: Error :		Error occured in prediction. Message: "None of [Index(['Process temperature [K]', 'Torque [Nm]'], dtype='object')] are in the [columns]"
+2021-08-22/20:29:02: Info :		Getting input from Form
+2021-08-22/20:29:02: Info :		Prediction Initiated..
+2021-08-22/20:29:05: Error :		Error occured in prediction. Message: "None of [Index(['Process temperature [K]', 'Torque [Nm]'], dtype='object')] are in the [columns]"
+2021-08-22/20:32:25: Info :		Getting input from Form
+2021-08-22/20:32:25: Info :		Prediction Initiated..
+2021-08-22/20:32:27: Error :		Error occured in prediction. Message: "None of [Index(['Process temperature [K]', 'Torque [Nm]'], dtype='object')] are in the [columns]"
+2021-08-22/20:33:57: Info :		Getting input from Form
+2021-08-22/20:33:57: Info :		Prediction Initiated..
+2021-08-22/20:33:59: Error :		Error occured in prediction. Message: "None of [Index(['Process temperature [K]', 'Torque [Nm]'], dtype='object')] are in the [columns]"
+2021-08-22/20:35:49: Info :		Getting input from Form
+2021-08-22/20:35:49: Info :		Prediction Initiated..
+2021-08-22/20:35:51: Error :		Error occured in prediction. Message: "None of [Index(['Process temperature [K]', 'Torque [Nm]'], dtype='object')] are in the [columns]"
+2021-08-22/20:36:48: Info :		Getting input from Form
+2021-08-22/20:36:48: Info :		Prediction Initiated..
+2021-08-22/20:36:51: Error :		Error occured in prediction. Message: "None of [Index(['Process temperature [K]', 'Torque [Nm]'], dtype='object')] are in the [columns]"
+2021-08-22/20:37:38: Info :		Getting input from Form
+2021-08-22/20:37:38: Info :		Prediction Initiated..
+2021-08-22/20:37:43: Info :		Prediction for data complete
