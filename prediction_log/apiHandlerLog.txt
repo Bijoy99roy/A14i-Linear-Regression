@@ -64,3 +64,19 @@
 2021-08-22/20:37:38: Info :		Getting input from Form
 2021-08-22/20:37:38: Info :		Prediction Initiated..
 2021-08-22/20:37:43: Info :		Prediction for data complete
+2021-08-30/09:40:17: Info :		Initiating app
+2021-08-30/09:40:17: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-08-30/09:40:47: Info :		Getting input from Form
+2021-08-30/09:40:47: Info :		Prediction Initiated..
+2021-08-30/09:41:00: Info :		Prediction for data complete
+2021-08-30/09:55:00: Info :		Initiating app
+2021-08-30/09:55:00: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-08-30/09:55:06: Info :		Getting input from Form
+2021-08-30/09:55:06: Info :		Prediction Initiated..
+2021-08-30/09:55:09: Info :		Prediction for data complete
+2021-08-30/11:56:18: Info :		Initiating app
+2021-08-30/11:56:18: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-08-30/11:56:29: Info :		Getting input from Form
+2021-08-30/11:56:30: Info :		Prediction Initiated..
+2021-08-30/11:56:41: Info :		Prediction for data complete
+2021-08-30/11:56:45: Info :		Rendering Report

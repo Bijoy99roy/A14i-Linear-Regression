@@ -11,10 +11,7 @@ class PredictionValidation:
     def validation(self):
         f = open("prediction_log/Prediction_Log.txt", "a+")
         try:
-            self.logger.log(f, "Validation started for Prediction Data")
-            # Getting all the necessary information from Schema file
-            column_number, column_names, required_columns = self.raw_data.get_schema_values()
-            # validating columns length
+            # validating data type
             self.logger.log(f, "Starting data type validation")
             self.raw_data.validate_data_type()
             self.logger.log(f, "data type validation complete!!")

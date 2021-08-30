@@ -1,5 +1,4 @@
 # performing important imports
-import pandas as pd
 from file_operation.file_handler import FileHandler
 
 

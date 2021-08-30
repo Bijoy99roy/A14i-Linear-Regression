@@ -50,3 +50,15 @@
 2021-08-22/20:21:13: Info :		prediction_files deleted.
 2021-08-22/20:21:13: Info :		Entered createPredictionFiles method of PredictionDataValidation class
 2021-08-22/20:21:13: None :		prediction_files created.
+2021-08-30/09:40:17: Info :		Entered deletePredictionFiles method of PredictionDataValidation class
+2021-08-30/09:40:17: Info :		prediction_files deleted.
+2021-08-30/09:40:17: Info :		Entered createPredictionFiles method of PredictionDataValidation class
+2021-08-30/09:40:17: None :		prediction_files created.
+2021-08-30/09:55:00: Info :		Entered deletePredictionFiles method of PredictionDataValidation class
+2021-08-30/09:55:00: Info :		prediction_files deleted.
+2021-08-30/09:55:00: Info :		Entered createPredictionFiles method of PredictionDataValidation class
+2021-08-30/09:55:00: None :		prediction_files created.
+2021-08-30/11:56:18: Info :		Entered deletePredictionFiles method of PredictionDataValidation class
+2021-08-30/11:56:18: Info :		prediction_files deleted.
+2021-08-30/11:56:18: Info :		Entered createPredictionFiles method of PredictionDataValidation class
+2021-08-30/11:56:18: None :		prediction_files created.

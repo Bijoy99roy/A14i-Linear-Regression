@@ -2,6 +2,7 @@
 
 {% block content %}
 <a href="/download"><button type="button" class="btn btn-success">Download</button></a>
+<a href={{url_for('report')}}><button type="button" class="btn btn-success">View Report</button></a>
 <table class="table table-bordered">
   <thead>
     <tr>
@@ -18,12 +19,6 @@
       <td>{{data[0]}}</td>
       <td>{{data[1]}}</td>
         <td>{{data[2]}}</td>
-        <td>{{data[3]}}</td>
-        <td>{{data[4]}}</td>
-        <td>{{data[5]}}</td>
-        <td>{{data[6]}}</td>
-        <td>{{data[7]}}</td>
-       <td>{{data[8]}}</td>
 
     </tr>
   {% endfor %}

@@ -3,7 +3,6 @@ import os
 import pandas as pd
 from flask import Flask, request, render_template, send_file, redirect, url_for
 from flask_cors import cross_origin
-from werkzeug.utils import secure_filename
 from zipfile import ZipFile
 from predictionValidation import PredictionValidation
 from prediction_data_validation.prediction_data_validation import PredictionDataValidation
@@ -55,7 +54,6 @@ def manual_input():
     file_object = open("prediction_log/apiHandlerLog.txt", 'a+')
     logger.log(file_object, 'Getting input from Form', 'Info')
     try:
-        is_uploaded = True
         # getting data
         if request.method == 'POST':
             input_data = []
@@ -102,6 +100,24 @@ def predict():
         logger.log(file_object, f'Error occured in prediction. Message: {str(e)}', 'Error')
         file_object.close()
         message = 'Error :: '+str(e)
+        return render_template('exception.html', exception=message)
+
+
+@app.route('/report', methods=['GET'])
+@cross_origin()
+def report():
+    """
+    Renders data report
+    :return: HTML
+    """
+    file_object = open("prediction_log/apiHandlerLog.txt", 'a+')
+    try:
+        logger.log(file_object, 'Rendering Report', 'Info')
+        return render_template('report.html')
+    except Exception as e:
+        logger.log(file_object, f'Error occured in Rendering report. Message: {str(e)}', 'Error')
+        file_object.close()
+        message = 'Error :: ' + str(e)
         return render_template('exception.html', exception=message)
 
 

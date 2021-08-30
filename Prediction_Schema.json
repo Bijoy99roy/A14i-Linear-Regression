@@ -1,15 +1,9 @@
 {
-  "ColumnNumber":8,
+  "ColumnNumber":2,
   "ColumnNames": [
     "Process temperature",
-    "Torque",
-    "Machine failure",
-    "TWF",
-    "HDF",
-    "PWF",
-    "OSF",
-    "RNF"],
-  "ColumnsToScale": ["Process temperature", "Torque"]
+    "HDF"],
+  "ColumnsToScale": ["Process temperature"]
 
 
 }

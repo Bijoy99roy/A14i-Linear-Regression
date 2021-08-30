@@ -188,3 +188,27 @@
 2021-08-22/20:37:38: Info :		Entered getSchemaValue method of PredictionDataValidation class
 2021-08-22/20:37:38: Info :		ColumnNumber: 8	RequiredColumns: ['Process temperature', 'Torque', 'Machine failure', 'TWF', 'HDF', 'PWF', 'OSF', 'RNF']
 
+2021-08-30/09:40:47: Info :		Entered getSchemaValue method of PredictionDataValidation class
+2021-08-30/09:40:47: Info :		ColumnNumber: 2	RequiredColumns: ['Process temperature', 'HDF']
+
+2021-08-30/09:40:47: Info :		Entered getSchemaValue method of PredictionDataValidation class
+2021-08-30/09:40:47: Info :		ColumnNumber: 2	RequiredColumns: ['Process temperature', 'HDF']
+
+2021-08-30/09:40:47: Info :		Entered getSchemaValue method of PredictionDataValidation class
+2021-08-30/09:40:47: Info :		ColumnNumber: 2	RequiredColumns: ['Process temperature', 'HDF']
+
+2021-08-30/09:55:06: Info :		Entered getSchemaValue method of PredictionDataValidation class
+2021-08-30/09:55:06: Info :		ColumnNumber: 2	RequiredColumns: ['Process temperature', 'HDF']
+
+2021-08-30/09:55:06: Info :		Entered getSchemaValue method of PredictionDataValidation class
+2021-08-30/09:55:06: Info :		ColumnNumber: 2	RequiredColumns: ['Process temperature', 'HDF']
+
+2021-08-30/09:55:06: Info :		Entered getSchemaValue method of PredictionDataValidation class
+2021-08-30/09:55:06: Info :		ColumnNumber: 2	RequiredColumns: ['Process temperature', 'HDF']
+
+2021-08-30/11:56:29: Info :		Entered getSchemaValue method of PredictionDataValidation class
+2021-08-30/11:56:29: Info :		ColumnNumber: 2	RequiredColumns: ['Process temperature', 'HDF']
+
+2021-08-30/11:56:30: Info :		Entered getSchemaValue method of PredictionDataValidation class
+2021-08-30/11:56:30: Info :		ColumnNumber: 2	RequiredColumns: ['Process temperature', 'HDF']
+
