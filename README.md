@@ -2,4 +2,4 @@
 
 ## 🚀Deployed Link
 
-### [Lanuch App](https://a14i.herokuapp.com/)
+### [Lanuch App](https://ai41-regression.herokuapp.com/)
