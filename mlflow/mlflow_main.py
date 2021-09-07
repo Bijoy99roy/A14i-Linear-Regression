@@ -24,3 +24,10 @@ def mlflow_start():
 
 if __name__ == '__main__':
     mlflow_start()
+
+"""
+Enter mlflow folder
+run this-
+    mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 127.0.0.1 -p 5001
+this will show you the runs and versions
+"""
