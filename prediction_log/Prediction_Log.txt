@@ -216,3 +216,52 @@
 2021-08-30/11:56:40: Info :		Entered the loadModel method of FileHandler class
 2021-08-30/11:56:40: Info :		linear_regressor loaded. Exiting loadModel method of FileHandler class
 2021-08-30/11:56:41: Info :		Predction complete!!. Prediction.csv saved in Prediction_File as output.                 Exiting Predict method of Prediction class 
+2021-09-07/11:29:56: None :		Starting data type validation
+2021-09-07/11:29:56: None :		data type validation complete!!
+2021-09-07/11:29:56: Info :		Start of Prediction
+2021-09-07/11:29:56: Info :		Entered ScaleData method of PreProcessing class
+2021-09-07/11:29:56: Info :		Initiating Scaling
+2021-09-07/11:29:56: Info :		Entered the loadModel method of FileHandler class
+2021-09-07/11:29:56: Info :		standard_scaler loaded. Exiting loadModel method of FileHandler class
+2021-09-07/11:30:07: Info :		Scaling data complete
+2021-09-07/11:30:07: Error :		Error occured while running the prediction!! Message: Model Registry features are not supported by the store with URI: 'file:///D:/Ineuron%20projects/A14i%20Linear%20Regression/mlruns'. Stores with the following URI schemes are supported: ['databricks', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql'].
+2021-09-07/11:32:33: None :		Starting data type validation
+2021-09-07/11:32:33: None :		data type validation complete!!
+2021-09-07/11:32:33: Info :		Start of Prediction
+2021-09-07/11:32:33: Info :		Entered ScaleData method of PreProcessing class
+2021-09-07/11:32:33: Info :		Initiating Scaling
+2021-09-07/11:32:33: Info :		Entered the loadModel method of FileHandler class
+2021-09-07/11:32:33: Info :		standard_scaler loaded. Exiting loadModel method of FileHandler class
+2021-09-07/11:32:34: Info :		Scaling data complete
+2021-09-07/11:32:35: Error :		Error occured while running the prediction!! Message: Model Registry features are not supported by the store with URI: 'file:///D:/Ineuron%20projects/A14i%20Linear%20Regression/mlruns'. Stores with the following URI schemes are supported: ['databricks', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql'].
+2021-09-07/11:43:35: None :		Starting data type validation
+2021-09-07/11:43:35: None :		data type validation complete!!
+2021-09-07/11:43:35: Info :		Start of Prediction
+2021-09-07/11:43:35: Info :		Entered ScaleData method of PreProcessing class
+2021-09-07/11:43:35: Info :		Initiating Scaling
+2021-09-07/11:43:35: Info :		Entered the loadModel method of FileHandler class
+2021-09-07/11:43:35: Info :		standard_scaler loaded. Exiting loadModel method of FileHandler class
+2021-09-07/11:43:37: Info :		Scaling data complete
+2021-09-07/11:43:37: Error :		Error occured while running the prediction!! Message: Model Registry features are not supported by the store with URI: 'file:///D:/Ineuron%20projects/A14i%20Linear%20Regression/mlruns'. Stores with the following URI schemes are supported: ['databricks', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql'].
+2021-09-07/12:37:23: None :		Starting data type validation
+2021-09-07/12:37:23: None :		data type validation complete!!
+2021-09-07/12:37:23: Info :		Start of Prediction
+2021-09-07/12:37:23: Info :		Entered ScaleData method of PreProcessing class
+2021-09-07/12:37:23: Info :		Initiating Scaling
+2021-09-07/12:37:23: Info :		Entered the loadModel method of FileHandler class
+2021-09-07/12:37:23: Info :		standard_scaler.sav loaded. Exiting loadModel method of FileHandler class
+2021-09-07/12:37:25: Info :		Scaling data complete
+2021-09-07/12:37:25: Info :		Entered the loadModel method of FileHandler class
+2021-09-07/12:37:25: Error :		Error occured in loadModel method of FileHandler class. Message: [Errno 2] No such file or directory: 'mlflow/artifacts/0/4f4cce94f87546a0bb9763fe403bb1c9/artifacts/modelmodel.pkl'
+2021-09-07/12:37:25: Error :		Error occured while running the prediction!! Message: [Errno 2] No such file or directory: 'mlflow/artifacts/0/4f4cce94f87546a0bb9763fe403bb1c9/artifacts/modelmodel.pkl'
+2021-09-07/12:40:25: None :		Starting data type validation
+2021-09-07/12:40:25: None :		data type validation complete!!
+2021-09-07/12:40:25: Info :		Start of Prediction
+2021-09-07/12:40:25: Info :		Entered ScaleData method of PreProcessing class
+2021-09-07/12:40:25: Info :		Initiating Scaling
+2021-09-07/12:40:25: Info :		Entered the loadModel method of FileHandler class
+2021-09-07/12:40:25: Info :		standard_scaler.sav loaded. Exiting loadModel method of FileHandler class
+2021-09-07/12:40:27: Info :		Scaling data complete
+2021-09-07/12:40:27: Info :		Entered the loadModel method of FileHandler class
+2021-09-07/12:40:27: Info :		model.pkl loaded. Exiting loadModel method of FileHandler class
+2021-09-07/12:40:27: Info :		Predction complete!!. Prediction.csv saved in Prediction_File as output.                 Exiting Predict method of Prediction class 

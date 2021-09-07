@@ -2,6 +2,7 @@
 import os
 import numpy as np
 import pandas as pd
+from mlflow.pyfunc import load_model
 from application_logging.logger import AppLogger
 from prediction_data_validation.prediction_data_validation import PredictionDataValidation
 from data_preprocessing.preprocessing import PreProcessing
@@ -24,7 +25,7 @@ class Prediction:
             # initializing PreProcessor object
             preprocessor = PreProcessing(self.file_object, self.logger)
             # initializing FileHandler object
-            model = FileHandler(self.file_object, self.logger)
+            model = FileHandler(self.file_object, self.logger, 'mlflow/artifacts/0/4f4cce94f87546a0bb9763fe403bb1c9/artifacts/model/')
             # getting the data file path
             file = os.listdir('prediction_files/')[0]
             # reading data file
@@ -35,7 +36,7 @@ class Prediction:
             data = dataframe.copy()
             data = np.array(preprocessor.scale_data(data, column_info[1]))
             # loading Logistic Regression model
-            linear_reg = model.load_model('linear_regressor')
+            linear_reg = model.load_model('model.pkl')
             # predicting
             predicted = linear_reg.predict(data)
 

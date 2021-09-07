@@ -1,0 +1,18 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.6.13
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.1
+run_id: 4f4cce94f87546a0bb9763fe403bb1c9
+signature:
+  inputs: '[{"name": "Process_temperature", "type": "double"}, {"name": "HDF", "type":
+    "long"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    1]}}]'
+utc_time_created: '2021-09-07 06:08:51.162411'

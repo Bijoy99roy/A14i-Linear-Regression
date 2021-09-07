@@ -15,7 +15,7 @@ class PreProcessing:
         self.logger.log(self.file_object, 'Entered ScaleData method of PreProcessing class', 'Info')
         try:
             self.logger.log(self.file_object, 'Initiating Scaling', 'Info')
-            scaler = FileHandler(self.file_object, self.logger).load_model('standard_scaler')
+            scaler = FileHandler(self.file_object, self.logger).load_model('standard_scaler.sav')
             data[numerical_columns] = scaler.transform(data[numerical_columns])
             self.logger.log(self.file_object, 'Scaling data complete', 'Info')
             return data

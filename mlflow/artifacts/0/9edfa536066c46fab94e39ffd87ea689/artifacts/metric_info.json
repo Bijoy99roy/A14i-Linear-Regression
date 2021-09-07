@@ -1,0 +1,3 @@
+{
+  "LinearRegression_score_x_test": "LinearRegression.score(X=x_test, y=y_test)"
+}

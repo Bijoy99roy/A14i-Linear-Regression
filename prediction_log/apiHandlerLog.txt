@@ -80,3 +80,26 @@
 2021-08-30/11:56:30: Info :		Prediction Initiated..
 2021-08-30/11:56:41: Info :		Prediction for data complete
 2021-08-30/11:56:45: Info :		Rendering Report
+2021-09-07/11:29:50: Info :		Initiating app
+2021-09-07/11:29:50: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-09-07/11:29:56: Info :		Getting input from Form
+2021-09-07/11:29:56: Info :		Prediction Initiated..
+2021-09-07/11:30:07: Error :		Error occured in prediction. Message: Model Registry features are not supported by the store with URI: 'file:///D:/Ineuron%20projects/A14i%20Linear%20Regression/mlruns'. Stores with the following URI schemes are supported: ['databricks', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql'].
+2021-09-07/11:32:33: Info :		Getting input from Form
+2021-09-07/11:32:33: Info :		Prediction Initiated..
+2021-09-07/11:32:35: Error :		Error occured in prediction. Message: Model Registry features are not supported by the store with URI: 'file:///D:/Ineuron%20projects/A14i%20Linear%20Regression/mlruns'. Stores with the following URI schemes are supported: ['databricks', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql'].
+2021-09-07/11:43:28: Info :		Initiating app
+2021-09-07/11:43:28: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-09-07/11:43:35: Info :		Getting input from Form
+2021-09-07/11:43:35: Info :		Prediction Initiated..
+2021-09-07/11:43:37: Error :		Error occured in prediction. Message: Model Registry features are not supported by the store with URI: 'file:///D:/Ineuron%20projects/A14i%20Linear%20Regression/mlruns'. Stores with the following URI schemes are supported: ['databricks', 'http', 'https', 'postgresql', 'mysql', 'sqlite', 'mssql'].
+2021-09-07/12:37:19: Info :		Initiating app
+2021-09-07/12:37:19: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-09-07/12:37:23: Info :		Getting input from Form
+2021-09-07/12:37:23: Info :		Prediction Initiated..
+2021-09-07/12:37:25: Error :		Error occured in prediction. Message: [Errno 2] No such file or directory: 'mlflow/artifacts/0/4f4cce94f87546a0bb9763fe403bb1c9/artifacts/modelmodel.pkl'
+2021-09-07/12:40:22: Info :		Initiating app
+2021-09-07/12:40:22: Info :		Deletion and creation of prediction_files complete. Exiting method...
+2021-09-07/12:40:25: Info :		Getting input from Form
+2021-09-07/12:40:25: Info :		Prediction Initiated..
+2021-09-07/12:40:27: Info :		Prediction for data complete
