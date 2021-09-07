@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.6
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: 3.6
     - name: Install dependencies
@@ -31,7 +31,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Deploy to Heroku
       run: |
+        git fetch --all --unshallow
         git remote add heroku https://heroku:${{ secrets.HEROKU__API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
-    - name: push to heroku
-      run: |
         git push heroku HEAD:master
