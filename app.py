@@ -11,7 +11,7 @@ from application_logging.logger import AppLogger
 
 app = Flask(__name__)
 logger = AppLogger()
-ALLOWED_EXTENSIONS = {'csv'}
+
 
 
 @app.route("/", methods=["GET"])
